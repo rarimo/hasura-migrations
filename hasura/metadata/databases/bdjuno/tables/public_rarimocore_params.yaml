@@ -1,0 +1,20 @@
+table:
+  name: rarimocore_params
+  schema: public
+select_permissions:
+- permission:
+    allow_aggregations: true
+    columns:
+    - one_row_id
+    - key_ecdsa
+    - threshold
+    - is_update_required
+    - last_signature
+    - stake_amount
+    - stake_denom
+    - max_violations_count
+    - freeze_blocks_period
+    - parties
+    - height
+    filter: {}
+  role: anonymous

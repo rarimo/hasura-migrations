@@ -1,0 +1,70 @@
+table:
+  name: operation
+  schema: public
+object_relationships:
+  - name: creator_account
+    using:
+      manual_configuration:
+        column_mapping:
+          creator: address
+        insertion_order: null
+        remote_table:
+          name: account
+          schema: public
+  - name: transfer
+    using:
+      manual_configuration:
+        column_mapping:
+          index: operation_index
+        insertion_order: null
+        remote_table:
+          name: transfer
+          schema: public
+  - name: change_parties
+    using:
+      manual_configuration:
+        column_mapping:
+          index: operation_index
+        insertion_order: null
+        remote_table:
+          name: change_parties
+          schema: public
+  - name: contract_upgrade
+    using:
+      manual_configuration:
+        column_mapping:
+          index: operation_index
+        insertion_order: null
+        remote_table:
+          name: contract_upgrade
+          schema: public
+  - name: fee_token_management
+    using:
+      manual_configuration:
+        column_mapping:
+          index: operation_index
+        insertion_order: null
+        remote_table:
+          name: fee_token_management
+          schema: public
+  - name: identity_default_transfer
+    using:
+      manual_configuration:
+        column_mapping:
+          index: operation_index
+        insertion_order: null
+        remote_table:
+          name: identity_default_transfer
+          schema: public
+
+select_permissions:
+  - permission:
+      allow_aggregations: true
+      columns:
+        - index
+        - operation_type
+        - status
+        - creator
+        - timestamp
+      filter: {}
+    role: anonymous

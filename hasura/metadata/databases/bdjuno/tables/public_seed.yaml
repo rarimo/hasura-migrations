@@ -1,0 +1,21 @@
+table:
+  name: seed
+  schema: public
+object_relationships:
+  - name: item_info
+    using:
+      manual_configuration:
+        column_mapping:
+          item: index
+        insertion_order: null
+        remote_table:
+          name: item
+          schema: public
+select_permissions:
+  - permission:
+      allow_aggregations: true
+      columns:
+        - seed
+        - item
+      filter: {}
+    role: anonymous

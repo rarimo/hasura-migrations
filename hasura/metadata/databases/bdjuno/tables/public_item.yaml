@@ -1,0 +1,23 @@
+table:
+  name: item
+  schema: public
+object_relationships:
+  - name: collection_info
+    using:
+      manual_configuration:
+        column_mapping:
+          collection: index
+        insertion_order: null
+        remote_table:
+          name: collection
+          schema: public
+select_permissions:
+  - permission:
+      allow_aggregations: true
+      columns:
+        - index
+        - collection
+        - meta
+        - on_chain
+      filter: {}
+    role: anonymous
