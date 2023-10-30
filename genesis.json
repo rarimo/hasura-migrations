@@ -1,0 +1,1034 @@
+{
+  "jsonrpc": "2.0",
+  "id": -1,
+  "result": {
+    "genesis": {
+      "genesis_time": "2023-06-19T11:49:05.672334Z",
+      "chain_id": "rarimo_42-1",
+      "initial_height": "1",
+      "consensus_params": {
+        "block": {
+          "max_bytes": "22020096",
+          "max_gas": "-1",
+          "time_iota_ms": "1000"
+        },
+        "evidence": {
+          "max_age_num_blocks": "100000",
+          "max_age_duration": "172800000000000",
+          "max_bytes": "1048576"
+        },
+        "validator": {
+          "pub_key_types": [
+            "ed25519"
+          ]
+        },
+        "version": {}
+      },
+      "app_hash": "",
+      "app_state": {
+        "auth": {
+          "params": {
+            "max_memo_characters": "256",
+            "tx_sig_limit": "7",
+            "tx_size_cost_per_byte": "10",
+            "sig_verify_cost_ed25519": "590",
+            "sig_verify_cost_secp256k1": "1000"
+          },
+          "accounts": [
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1g9p4ejp9p877j9vdnuyqtgqm4lhm4f6j7uaztx",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1l2vdscjfm289mdxnlnvfwscku4w2l3ljt97kdq",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1cqtx4qdtdemula69hpv9ksvg769u0tujgqqyhc",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo13xrlm9cg8ugp327qr0a4k2r9fvkqrsvtm9pcsn",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo15wm6yd4ktqsmr5gzccytsu3wdzamzl4gtst6r3d3jv5g53yk8m8qqxnqde",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo16n9z04f7vtkq58e3v45f7zll62y3ykexzd00k3yll50z7tyt6gkqdnn6zn",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo17fcahfu87uy6ejaapgx5xfsq3snrct6lq88km79zw9zckum70r4sxf0p2d",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1hs0e622kglrmnphuc0fr4r8h2jxm09ushlm5vf2z3f3yh64dxdyqpl5drz",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1n77flmf2dhxzv7wh2ekxzn4wuz7rna06yqyw6sqp0pqte0fjue3scxac23",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            },
+            {
+              "@type": "/ethermint.types.v1.EthAccount",
+              "base_account": {
+                "address": "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn",
+                "pub_key": null,
+                "account_number": "0",
+                "sequence": "0"
+              },
+              "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+            }
+          ]
+        },
+        "authz": {
+          "authorization": []
+        },
+        "bank": {
+          "params": {
+            "send_enabled": [],
+            "default_send_enabled": true
+          },
+          "balances": [
+            {
+              "address": "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+              "coins": []
+            },
+            {
+              "address": "rarimo1g9p4ejp9p877j9vdnuyqtgqm4lhm4f6j7uaztx",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "1100000000000"
+                }
+              ]
+            },
+            {
+              "address": "rarimo13xrlm9cg8ugp327qr0a4k2r9fvkqrsvtm9pcsn",
+              "coins": []
+            },
+            {
+              "address": "rarimo1n77flmf2dhxzv7wh2ekxzn4wuz7rna06yqyw6sqp0pqte0fjue3scxac23",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "2982616177778"
+                }
+              ]
+            },
+            {
+              "address": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "5253481829428"
+                }
+              ]
+            },
+            {
+              "address": "rarimo15wm6yd4ktqsmr5gzccytsu3wdzamzl4gtst6r3d3jv5g53yk8m8qqxnqde",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "3033920208280"
+                }
+              ]
+            },
+            {
+              "address": "rarimo1hs0e622kglrmnphuc0fr4r8h2jxm09ushlm5vf2z3f3yh64dxdyqpl5drz",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "5000000000000"
+                }
+              ]
+            },
+            {
+              "address": "rarimo1cqtx4qdtdemula69hpv9ksvg769u0tujgqqyhc",
+              "coins": []
+            },
+            {
+              "address": "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+              "coins": []
+            },
+            {
+              "address": "rarimo16n9z04f7vtkq58e3v45f7zll62y3ykexzd00k3yll50z7tyt6gkqdnn6zn",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "4929155611111"
+                }
+              ]
+            },
+            {
+              "address": "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn",
+              "coins": []
+            },
+            {
+              "address": "rarimo17fcahfu87uy6ejaapgx5xfsq3snrct6lq88km79zw9zckum70r4sxf0p2d",
+              "coins": [
+                {
+                  "denom": "stake",
+                  "amount": "1000000000000"
+                }
+              ]
+            },
+            {
+              "address": "rarimo1l2vdscjfm289mdxnlnvfwscku4w2l3ljt97kdq",
+              "coins": []
+            }
+          ],
+          "supply": [],
+          "denom_metadata": []
+        },
+        "bridge": {
+          "params": {
+            "withdrawDenom": "stake"
+          },
+          "hashList": []
+        },
+        "capability": {
+          "index": "1",
+          "owners": []
+        },
+        "crisis": {
+          "constant_fee": {
+            "denom": "stake",
+            "amount": "1000"
+          }
+        },
+        "distribution": {
+          "params": {
+            "community_tax": "0",
+            "base_proposer_reward": "0.010000000000000000",
+            "bonus_proposer_reward": "0.040000000000000000",
+            "withdraw_addr_enabled": true
+          },
+          "fee_pool": {
+            "community_pool": []
+          },
+          "delegator_withdraw_infos": [],
+          "previous_proposer": "",
+          "outstanding_rewards": [],
+          "validator_accumulated_commissions": [],
+          "validator_historical_rewards": [],
+          "validator_current_rewards": [],
+          "delegator_starting_infos": [],
+          "validator_slash_events": []
+        },
+        "evidence": {
+          "evidence": []
+        },
+        "evm": {
+          "accounts": [],
+          "params": {
+            "evm_denom": "stake",
+            "enable_create": true,
+            "enable_call": true,
+            "extra_eips": [],
+            "chain_config": {
+              "homestead_block": "0",
+              "dao_fork_block": "0",
+              "dao_fork_support": true,
+              "eip150_block": "0",
+              "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "eip155_block": "0",
+              "eip158_block": "0",
+              "byzantium_block": "0",
+              "constantinople_block": "0",
+              "petersburg_block": "0",
+              "istanbul_block": "0",
+              "muir_glacier_block": "0",
+              "berlin_block": "0",
+              "london_block": "0",
+              "arrow_glacier_block": "0",
+              "gray_glacier_block": "0",
+              "merge_netsplit_block": "0",
+              "shanghai_block": "0",
+              "cancun_block": "0"
+            },
+            "allow_unprotected_txs": false
+          }
+        },
+        "feegrant": {
+          "allowances": []
+        },
+        "feemarket": {
+          "params": {
+            "no_base_fee": false,
+            "base_fee_change_denominator": 8,
+            "elasticity_multiplier": 2,
+            "enable_height": "0",
+            "base_fee": "1000000000",
+            "min_gas_price": "0.000000000000000000",
+            "min_gas_multiplier": "0.500000000000000000"
+          },
+          "block_gas": "0"
+        },
+        "genutil": {
+          "gen_txs": [
+            {
+              "body": {
+                "messages": [
+                  {
+                    "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+                    "description": {
+                      "moniker": "main",
+                      "identity": "",
+                      "website": "",
+                      "security_contact": "",
+                      "details": ""
+                    },
+                    "commission": {
+                      "rate": "0.100000000000000000",
+                      "max_rate": "0.200000000000000000",
+                      "max_change_rate": "0.010000000000000000"
+                    },
+                    "min_self_delegation": "1",
+                    "delegator_address": "rarimo1g9p4ejp9p877j9vdnuyqtgqm4lhm4f6j7uaztx",
+                    "validator_address": "rarimovaloper1g9p4ejp9p877j9vdnuyqtgqm4lhm4f6j5a5rz6",
+                    "pubkey": {
+                      "@type": "/cosmos.crypto.ed25519.PubKey",
+                      "key": "jfa+JxcxuO2UPiqAl0g8E0ndG/metDqCkxWGOMuq4PE="
+                    },
+                    "value": {
+                      "denom": "stake",
+                      "amount": "1000000000000"
+                    }
+                  }
+                ],
+                "memo": "f11612cdb2d705eaf7d0820f3e125a1d0ad9e225@192.168.0.183:26656",
+                "timeout_height": "0",
+                "extension_options": [],
+                "non_critical_extension_options": []
+              },
+              "auth_info": {
+                "signer_infos": [
+                  {
+                    "public_key": {
+                      "@type": "/cosmos.crypto.secp256k1.PubKey",
+                      "key": "A2enwQmje7ZenhPo4NHcRKWr5iCD8gJgZKwkr4PRPyp+"
+                    },
+                    "mode_info": {
+                      "single": {
+                        "mode": "SIGN_MODE_DIRECT"
+                      }
+                    },
+                    "sequence": "0"
+                  }
+                ],
+                "fee": {
+                  "amount": [],
+                  "gas_limit": "200000",
+                  "payer": "",
+                  "granter": ""
+                },
+                "tip": null
+              },
+              "signatures": [
+                "MC0KC5vb2SRavBE5FUnPn+oQ5ZaP3sHUiJPQ5JwkiHIO3Cw5TT5pa8z8n1RzhqzzaoTAwjuJdo3mkXDrTckvXw=="
+              ]
+            }
+          ]
+        },
+        "gov": {
+          "starting_proposal_id": "1",
+          "deposits": [],
+          "votes": [],
+          "proposals": [],
+          "deposit_params": {
+            "min_deposit": [
+              {
+                "denom": "stake",
+                "amount": "1000000"
+              }
+            ],
+            "max_deposit_period": "720"
+          },
+          "voting_params": {
+            "voting_period": "720"
+          },
+          "tally_params": {
+            "quorum": "0.334000000000000000",
+            "threshold": "0.500000000000000000",
+            "veto_threshold": "0.334000000000000000"
+          }
+        },
+        "group": {
+          "group_seq": "0",
+          "groups": [],
+          "group_members": [],
+          "group_policy_seq": "0",
+          "group_policies": [],
+          "proposal_seq": "0",
+          "proposals": [],
+          "votes": []
+        },
+        "ibc": {
+          "client_genesis": {
+            "clients": [],
+            "clients_consensus": [],
+            "clients_metadata": [],
+            "params": {
+              "allowed_clients": [
+                "06-solomachine",
+                "07-tendermint"
+              ]
+            },
+            "create_localhost": false,
+            "next_client_sequence": "0"
+          },
+          "connection_genesis": {
+            "connections": [],
+            "client_connection_paths": [],
+            "next_connection_sequence": "0",
+            "params": {
+              "max_expected_time_per_block": "30000000000"
+            }
+          },
+          "channel_genesis": {
+            "channels": [],
+            "acknowledgements": [],
+            "commitments": [],
+            "receipts": [],
+            "send_sequences": [],
+            "recv_sequences": [],
+            "ack_sequences": [],
+            "next_channel_sequence": "0"
+          }
+        },
+        "interchainaccounts": {
+          "controller_genesis_state": {
+            "active_channels": [],
+            "interchain_accounts": [],
+            "ports": [],
+            "params": {
+              "controller_enabled": true
+            }
+          },
+          "host_genesis_state": {
+            "active_channels": [],
+            "interchain_accounts": [],
+            "port": "icahost",
+            "params": {
+              "host_enabled": true,
+              "allow_messages": [
+                "*"
+              ]
+            }
+          }
+        },
+        "mint": {
+          "params": {
+            "mint_denom": "stake",
+            "blocks_per_month": "17280",
+            "month_reward": {
+              "denom": "stake",
+              "amount": "2236962133000"
+            },
+            "end_block": 829440
+          }
+        },
+        "multisig": {
+          "params": {
+            "groupSequence": 12,
+            "proposalSequence": 0,
+            "prunePeriod": 240,
+            "votingPeriod": 120
+          },
+          "groupList": [
+            {
+              "account": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            },
+            {
+              "account": "rarimo15wm6yd4ktqsmr5gzccytsu3wdzamzl4gtst6r3d3jv5g53yk8m8qqxnqde",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            },
+            {
+              "account": "rarimo16n9z04f7vtkq58e3v45f7zll62y3ykexzd00k3yll50z7tyt6gkqdnn6zn",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            },
+            {
+              "account": "rarimo17fcahfu87uy6ejaapgx5xfsq3snrct6lq88km79zw9zckum70r4sxf0p2d",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            },
+            {
+              "account": "rarimo1hs0e622kglrmnphuc0fr4r8h2jxm09ushlm5vf2z3f3yh64dxdyqpl5drz",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            },
+            {
+              "account": "rarimo1n77flmf2dhxzv7wh2ekxzn4wuz7rna06yqyw6sqp0pqte0fjue3scxac23",
+              "members": [
+                "rarimo1rseuctsknx589lva0444q0g0l0etjpd2q0s6jh",
+                "rarimo16w2tsudhexypygh3886z9q00m0ymj5tq8x3aq9",
+                "rarimo16hrgv2fxvnc4938drmeh38g0c77k7djpxjaddn"
+              ],
+              "threshold": "2"
+            }
+          ]
+        },
+        "oraclemanager": {
+          "params": {
+            "minOracleStake": "80000000000",
+            "checkOperationDelta": "10",
+            "maxViolationsCount": "10",
+            "maxMissedCount": "10",
+            "slashedFreezeBlocks": "240",
+            "minOraclesCount": "1",
+            "stakeDenom": "stake",
+            "voteThreshold": "0.667000000000000000",
+            "voteQuorum": "0.900000000000000000"
+          },
+          "oracles": []
+        },
+        "params": null,
+        "rarimocore": {
+          "params": {
+            "keyECDSA": "0x041eba8a5798f851871604f915b026c342c0088ed5b1b9d3e0ba2e13b88bb4bce4e4036eb634ef86d81545b393035b2bdb2670a9a71fea44c676b6372e7c8f9f1f",
+            "threshold": "1",
+            "parties": [
+              {
+                "pubKey": "0x047f3548fa9f9863a8079855acae7c1192cdc876ac5bb4550cffead24b7637a732ce7fc7366a12a69700d82a1fd6034f8299d1eafbdbbfcc520bbc87aa061455c1",
+                "address": "tss.node1.mainnet-beta.rarimo.com:443",
+                "account": "rarimo1l2vdscjfm289mdxnlnvfwscku4w2l3ljt97kdq",
+                "status": "Active",
+                "violationsCount": "0",
+                "freezeEndBlock": "0",
+                "delegator": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+                "committedGlobalPublicKey": "0x041eba8a5798f851871604f915b026c342c0088ed5b1b9d3e0ba2e13b88bb4bce4e4036eb634ef86d81545b393035b2bdb2670a9a71fea44c676b6372e7c8f9f1f",
+                "reportedSessions": []
+              },
+              {
+                "pubKey": "0x0462b7e0ff399ecbe3f748615a04ab3ba2e1aaba42ef8e8b6556ecfa61af898ed0ee79fc7771b1c9a38ba8618be2068ecdefd17278d5104d53c70fc69522940d61",
+                "address": "tss.node2.mainnet-beta.rarimo.com:443",
+                "account": "rarimo1cqtx4qdtdemula69hpv9ksvg769u0tujgqqyhc",
+                "status": "Active",
+                "violationsCount": "0",
+                "freezeEndBlock": "0",
+                "delegator": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+                "committedGlobalPublicKey": "0x041eba8a5798f851871604f915b026c342c0088ed5b1b9d3e0ba2e13b88bb4bce4e4036eb634ef86d81545b393035b2bdb2670a9a71fea44c676b6372e7c8f9f1f",
+                "reportedSessions": []
+              }
+            ],
+            "isUpdateRequired": false,
+            "lastSignature": "0x00",
+            "stakeAmount": "100000000000",
+            "stakeDenom": "stake",
+            "maxViolationsCount": 10,
+            "freezeBlocksPeriod": 256
+          },
+          "operationList": [],
+          "confirmationList": [],
+          "voteList": [],
+          "violationReportList": []
+        },
+        "slashing": {
+          "params": {
+            "signed_blocks_window": "100",
+            "min_signed_per_window": "0.500000000000000000",
+            "downtime_jail_duration": "600s",
+            "slash_fraction_double_sign": "0.050000000000000000",
+            "slash_fraction_downtime": "0.010000000000000000"
+          },
+          "signing_infos": [],
+          "missed_blocks": []
+        },
+        "staking": {
+          "params": {
+            "unbonding_time": "1814400s",
+            "max_validators": 100,
+            "max_entries": 7,
+            "historical_entries": 10000,
+            "bond_denom": "stake",
+            "min_commission_rate": "0.000000000000000000"
+          },
+          "last_total_power": "0",
+          "last_validator_powers": [],
+          "validators": [],
+          "delegations": [],
+          "unbonding_delegations": [],
+          "redelegations": [],
+          "exported": false
+        },
+        "tokenmanager": {
+          "params": {
+            "networks": [
+              {
+                "name": "Mumbai",
+                "type": 0,
+                "params": [
+                  {
+                    "type": "IDENTITY",
+                    "details": {
+                      "@type": "/rarimo.rarimocore.tokenmanager.IdentityNetworkParams",
+                      "contract": "0x134B1BE34911E39A8397ec6289782989729807a4"
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "Rarimo",
+                "type": 3,
+                "params": [
+                  {
+                    "type": "FEE",
+                    "details": {
+                      "@type": "/rarimo.rarimocore.tokenmanager.FeeNetworkParams",
+                      "contract": "0x",
+                      "feeTokens": [
+                        {
+                          "contract": "",
+                          "amount": "1"
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "collections": [],
+          "datas": [],
+          "items": [],
+          "onChainItems": [],
+          "seeds": []
+        },
+        "transfer": {
+          "port_id": "transfer",
+          "denom_traces": [],
+          "params": {
+            "send_enabled": true,
+            "receive_enabled": true
+          }
+        },
+        "upgrade": {},
+        "vesting": {},
+        "vestingmint": {
+          "params": {},
+          "vestings": [
+            {
+              "index": 1,
+              "account": "rarimo15p8a4mj8ad34w7cdfjnajrn0jyak4pcj67ay56cy0ndekr3vteqsyday2m",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482",
+                "6353481829482"
+              ]
+            },
+            {
+              "index": 2,
+              "account": "rarimo15wm6yd4ktqsmr5gzccytsu3wdzamzl4gtst6r3d3jv5g53yk8m8qqxnqde",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280",
+                "3033920208280"
+              ]
+            },
+            {
+              "index": 3,
+              "account": "rarimo16n9z04f7vtkq58e3v45f7zll62y3ykexzd00k3yll50z7tyt6gkqdnn6zn",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111",
+                "4929155611111"
+              ]
+            },
+            {
+              "index": 4,
+              "account": "rarimo17fcahfu87uy6ejaapgx5xfsq3snrct6lq88km79zw9zckum70r4sxf0p2d",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "1034262283957",
+                "1069786348594",
+                "1106621691172",
+                "1144819863368",
+                "1184434561025",
+                "1225521717998",
+                "1268139604331",
+                "1312348928921",
+                "1358212946921",
+                "1405797572105",
+                "1455171494414",
+                "1506406302956",
+                "1559576614716",
+                "1614760209239",
+                "1672038169611",
+                "1731495029991",
+                "1793218930078",
+                "1857301776785",
+                "1923839413530",
+                "1992931797476",
+                "2064683185135",
+                "2139202326738",
+                "2216602669798",
+                "2297002572333",
+                "2380525526215",
+                "2467300391157",
+                "2557461639849",
+                "2651149614831",
+                "2748510797639",
+                "2849698090892",
+                "2954871113915",
+                "3064196512631",
+                "3177848284373",
+                "3296008118443",
+                "3418865753136",
+                "3546619350129",
+                "3679475887055",
+                "3817651569233",
+                "3961372261494",
+                "4110873941137",
+                "4266403173101",
+                "4428217608479",
+                "4596586507559",
+                "4771791288683",
+                "4954126104212",
+                "5143898445020",
+                "5341429774976",
+                "5547056196971",
+                "5761129152118",
+                "5984016153851",
+                "6216101558735",
+                "6457787375903",
+                "6709494117123",
+                "6971661689647",
+                "7244750334048",
+                "7529241609440",
+                "7825639428549",
+                "8134471145274",
+                "8456288697507",
+                "8791669775484"
+              ]
+            },
+            {
+              "index": 5,
+              "account": "rarimo1hs0e622kglrmnphuc0fr4r8h2jxm09ushlm5vf2z3f3yh64dxdyqpl5drz",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "4849272789805",
+                "4703089317989",
+                "4561312611550",
+                "4423809826597",
+                "4290452123878",
+                "4161114548057",
+                "4035675910631",
+                "3914018676380",
+                "3796028853231",
+                "3681595885458",
+                "3570612550082",
+                "3462974856410",
+                "3358581948594",
+                "3257336011130",
+                "3159142177205",
+                "3063908439810",
+                "2971545565525",
+                "2881967010913",
+                "2795088841428",
+                "2710829652765",
+                "2629110494590",
+                "2549854796561",
+                "2472988296584",
+                "2398438971226",
+                "2326136968235",
+                "2256014541085",
+                "2188005985497",
+                "2122047577881",
+                "2058077515618",
+                "1996035859159",
+                "1935864475859",
+                "1877506985507",
+                "1820908707498",
+                "1766016609598",
+                "1712779258253",
+                "1661146770398",
+                "1611070766713",
+                "1562504326295",
+                "1515401942691",
+                "1469719481262",
+                "1425414137826",
+                "1382444398552",
+                "1340770001064",
+                "1300351896709",
+                "1261152213977",
+                "1223134223008",
+                "1186262301183",
+                "1151502000000"
+              ]
+            },
+            {
+              "index": 6,
+              "account": "rarimo1n77flmf2dhxzv7wh2ekxzn4wuz7rna06yqyw6sqp0pqte0fjue3scxac23",
+              "deltaBlocks": 17280,
+              "nextDepositBlock": 17280,
+              "paymentsDone": 0,
+              "denom": "stake",
+              "payments": [
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778",
+                "2982616177778"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
